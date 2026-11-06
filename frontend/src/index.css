@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .icon-btn { @apply flex h-9 w-9 shrink-0 items-center justify-center rounded-lg text-ink-soft transition hover:bg-panel hover:text-ink; }
+  .btn-ghost { @apply inline-flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-sm text-ink-soft hover:bg-panel hover:text-ink; }
+  .cite { @apply mx-0.5 inline-flex h-[18px] min-w-[18px] items-center justify-center rounded-md bg-accent-soft px-1 align-text-top text-[11px] font-semibold text-accent transition hover:bg-accent hover:text-white; }
+  .prose-answer p { @apply mb-3 last:mb-0; }
+  .prose-answer ul { @apply mb-3 list-disc space-y-1 pl-5; }
+  .prose-answer ol { @apply mb-3 list-decimal space-y-1 pl-5; }
+  .prose-answer strong { @apply font-semibold; }
+  .prose-answer code { @apply rounded bg-panel px-1 font-mono text-[13px]; }
+  .prose-answer table { @apply mb-3 w-full border-collapse text-sm; }
+  .prose-answer th, .prose-answer td { @apply border border-line px-2 py-1; }
+}
+html, body, #root { height: 100%; }

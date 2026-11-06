@@ -1,0 +1,5 @@
+{"question": "What is the main topic of the PDF document?", "expected_file": ".pdf", "expected_terms": []}
+{"question": "Describe the photo or diagram in my images", "expected_file": ".jpg", "expected_terms": []}
+{"question": "What was said in the audio recording?", "expected_file": ".mp3", "expected_terms": []}
+{"question": "What is shown at the beginning of the video?", "expected_file": ".mp4", "expected_terms": []}
+{"question": "What is the boiling point of tungsten on Neptune?", "expected_file": null, "expected_terms": []}
